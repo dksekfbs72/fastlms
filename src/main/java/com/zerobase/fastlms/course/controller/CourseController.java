@@ -27,9 +27,6 @@ public class CourseController extends BaseController{
 
         parameter.init();
 
-        System.out.println("======= 여기까진 돼요!!!!"+parameter.getQueryString()+
-                "==-=-=-=-=-=--=-=-==");
-
         List<CourseDto> courseDtoList = courseService.list(parameter);
 
         long totalCount = 0;
