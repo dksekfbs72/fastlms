@@ -1,4 +1,4 @@
-package com.zerobase.fastlms.admin.mapper;
+package com.zerobase.fastlms.admin.model.mapper;
 
 import com.zerobase.fastlms.admin.dto.MemberDto;
 import com.zerobase.fastlms.admin.model.MemberParam;
